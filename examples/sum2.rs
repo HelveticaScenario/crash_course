@@ -16,8 +16,7 @@ pub fn main() {
             v.push(i);
             (acc + i, v)
         });
-    // let l = args.get(1).expect("").parse::<i32>().expect("msg");
-    // let r = args.get(2).expect("msg").parse::<i32>().expect("msg");
+
     print!(
         "{} = {}",
         v.iter()
